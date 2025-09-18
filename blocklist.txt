@@ -3,3 +3,4 @@ trillion.toss.im
 loyalty.coupang.com
 img1.kakaocdn.net
 t1.kakaocdn.net
+cdn-ads.tmap.co.kr
