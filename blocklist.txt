@@ -4,3 +4,4 @@ loyalty.coupang.com
 t1.kakaocdn.net
 cdn-ads.tmap.co.kr
 amdc.aliexpress.com
+advertisement-gw.travel-wallet.com
