@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Chosun Wall Remover
 // @description  Chosun Wall Remover
-// @version      0.5.3
+// @version      0.5.4
 // @namespace    http://tampermonkey.net/
 // @author       J W
-// @match        *://*.chosun.com/*
+// @match        https://www.chosun.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=chosun.com
 // @downloadURL  https://raw.githubusercontent.com/himawarihome/myList/refs/heads/main/chosun-wall_remover.js
 // @updateURL    https://raw.githubusercontent.com/himawarihome/myList/refs/heads/main/chosun-wall_remover.js
@@ -24,10 +24,10 @@
 	        return;
 	    }
 		
-	    //const freeBanner = document.querySelector('.status-banner.free-banner');
+	    const freeBanner = document.querySelector('.status-banner.free-banner');
 	    //const membershipWall = document.querySelector('.membership-wall');
         const membershipBanner = document.querySelector('.article-membership-banner');
-        if (membershipBanner == null) {
+        if (freeBanner ==null || membershipBanner == null) {
 	        console.warn('[Chosun] .membership-banner not found');
 	        return;
 	    }
